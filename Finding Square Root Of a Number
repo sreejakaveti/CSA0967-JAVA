@@ -1,0 +1,14 @@
+import java.util.Scanner;
+
+public class SquareRoot {
+    public static void main(String[] args) {
+        Scanner input = new Scanner(System.in);
+        System.out.print("Enter a perfect square number: ");
+        int num = input.nextInt();
+        double positiveSqrt = Math.sqrt(num);
+        double negativeSqrt = -1 * Math.sqrt(num);
+
+        System.out.println("Positive square root: " + positiveSqrt);
+        System.out.println("Negative square root: " + negativeSqrt);
+    }
+}
